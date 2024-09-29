@@ -18,4 +18,4 @@ sequenceDiagram
         Firewall->> WebServer: Drop Excess Requests
     end
     deactivate Botnet
-    WebServer->> Botnet: Error Response (e.g., 429 Too Many Requests)
+    WebServer->> Botnet: Error Response 
